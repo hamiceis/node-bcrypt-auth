@@ -1,0 +1,26 @@
+# @name GetUsers
+GET http://localhost:3333/users
+
+###
+
+# @name PostUsers
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{
+  "name": "Hamiceis",
+  "password": "admin123"
+}
+
+###
+
+
+# @name PostLogin
+
+POST http://localhost:3333/users/login
+Content-Type: application/json
+
+{
+  "name": "Hamiceis",
+  "password": "admin1"
+}
