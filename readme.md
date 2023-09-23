@@ -11,7 +11,7 @@ Para executar este projeto em sua máquina, siga as etapas abaixo:
 2. Clone este repositório em sua máquina:
 
    ```shell
-   git clone [<>](https://github.com/hamiceis/node-bcrypt-auth.git)
+   git clone https://github.com/hamiceis/node-bcrypt-auth.git
 
 3. cd <nome_do_diretorio>
 
