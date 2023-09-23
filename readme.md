@@ -37,7 +37,7 @@ Descrição: Retorna todos os usuários cadastrados no banco de dados fictício.
 
 Resposta de Exemplo:
 
-`
+```
 {
   "users": [
     {
@@ -48,7 +48,7 @@ Resposta de Exemplo:
   ]
 }
 
-`
+```
 
 
 ### Cadastrar Usuário
@@ -59,7 +59,7 @@ Descrição: Cadastra um novo usuário no banco de dados fictício, criptografan
 Corpo da Requisição de Exemplo:
 
 
-`
+```
 {
   "name": "novo_usuario",
   "password": "senha_secreta"
@@ -68,7 +68,7 @@ Corpo da Requisição de Exemplo:
 
 Resposta de Exemplo:
 
-`
+```
 {
   "id": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed",
   "name": "novo_usuario",
@@ -84,13 +84,13 @@ Descrição: Verifica se o usuário existe no banco de dados fictício e se a se
 
 Corpo da Requisição de Exemplo:
 
-`
+```
 {
   "name": "exemplo",
   "password": "senha_secreta"
 }
 
-`
+```
 
 - Resposta de Exemplo (Sucesso): Retorna um status HTTP 200 e a mensagem "Sucesso".
 
